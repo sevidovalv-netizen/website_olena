@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Картка профілю</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+
+        .profile-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: yellow;
+            color: white;
+            padding: 30px 20px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        .profile-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-top: 20px;
+            object-fit: cover;
+        }
+
+        .profile-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .profile-name {
+            margin: 0;
+            font-size: 28px;
+            color: #333333;
+        }
+
+        .profile-description {
+            font-size: 14px;
+            color: #777777;
+            margin: 10px 0;
+        }
+
+        .social-links {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .social-link {
+            color: #007bff;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+
+        .social-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <img src="https://foni.papik.pro/uploads/posts/2024-09/foni-papik-pro-txoj-p-kartinki-uchitel-na-prozrachnom-fone-6.png" alt="Фото профілю" class="profile-image">
+        <div class="profile-info">
+            <h2 class="profile-name">Олена Севідова</h2>
+            <p class="profile-description">Я вчителька інформатики.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">Facebook</a>
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">Instagram</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
